@@ -1,0 +1,24 @@
+.breadcrumbs {
+
+    &__body {
+        margin: 20px 0;
+    }
+
+    &__content {}
+
+    &__text {
+        font-family: "Inter";
+        font-weight: 500;
+        font-size  : 0.56rem;
+        color      : #C2A696;
+    }
+
+    &__link {
+        color  : inherit;
+        padding: 5px;
+
+        &:not(:last-child) {
+            margin: 0 5px 0 0;
+        }
+    }
+}

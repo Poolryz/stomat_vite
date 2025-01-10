@@ -1,0 +1,151 @@
+.services {
+
+    &__body {}
+
+    &__content {}
+
+    &__wrapp-serv {}
+
+    &__title {}
+
+    &__appeal {}
+
+    &__appeal-text {
+        line-height: 170%;
+    }
+
+    &__request {
+        display         : flex;
+        align-items     : center;
+        gap             : 30px;
+        padding         : 30px;
+        background-color: #FFFAF0;
+        border-radius   : 20px;
+        margin          : 0 0 60px 0;
+    }
+
+    &__request-text {
+        line-height: 145%;
+
+    }
+
+    &__icon {
+        width : auto;
+        height: auto;
+    }
+
+    &__wrapp-names {}
+
+    &__background {
+        background-color: #FFFAF0;
+        padding         : 60px 0;
+    }
+
+    &__names {
+        text-align: center;
+    }
+
+    &__tabl {
+        display              : grid;
+        grid-template-columns: 8% 27% 50% 15%;
+        grid-template-rows   : 1fr;
+        column-gap           : 10px;
+        row-gap              : 0px;
+
+        font-family: "Inter";
+        font-weight: 400;
+        font-size  : 0.8rem;
+        color      : #C2A696;
+
+        background-color: #ffffff;
+        padding         : 16px 20px;
+        border-radius   : 20px;
+
+        word-wrap: break-word;
+    }
+
+    &__cod {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    &__cod-rf {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    &__cod-rf-span {
+        font-size   : 0.625rem;
+        padding-left: 15px;
+
+    }
+
+    &__name {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    &__price {
+        grid-area: 1 / 4 / 2 / 5;
+    }
+
+    &__details {
+        position        : relative;
+        background-color: #ffffff;
+        border-radius   : 20px;
+        margin          : 20px 0;
+    }
+
+    &__summary {
+        text-align : center;
+        font-family: "Inter";
+        font-weight: 600;
+        font-size  : 1.06rem;
+        color      : #1D1C1B;
+        padding    : 20px 0 20px 0;
+        cursor     : pointer;
+
+        list-style: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+
+    &__marker {
+        position  : absolute;
+        right     : 20px;
+        top       : 20px;
+        transition: transform 0.3s;
+        transform : rotate(180deg);
+
+
+        &_action {
+            transform: rotate(0deg);
+
+        }
+    }
+
+    &__consul {
+        display              : grid;
+        grid-template-columns: 8% 20% 57% 15%;
+        row-gap              : 10px;
+        column-gap           : 10px;
+
+        padding: 23px;
+
+        word-wrap: break-word;
+
+    }
+
+    &__consul-cod {}
+
+    &__consul-cod-rf {}
+
+    &__consul-name {
+        word-wrap: break-word;
+
+    }
+
+    &__price {}
+
+    &__consul-price {}
+
+}

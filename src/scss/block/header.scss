@@ -1,0 +1,60 @@
+.header {
+
+    &__body {
+        background-color: #5D3B28;
+        padding         : 5px 0;
+    }
+
+    &__content {
+        display        : flex;
+        flex-direction : row;
+        justify-content: space-between;
+        align-items    : center;
+    }
+
+    &__link {}
+
+    &__logo {
+        width : 110px;
+        height: 49px;
+    }
+
+    &__nav {
+        z-index: 1000;
+    }
+
+    &__block {
+        display       : flex;
+        flex-direction: row;
+        align-items   : center;
+        gap           : 12px;
+
+        @media (max-width:1024px) {
+            justify-content: flex-end;
+        }
+
+    }
+
+    &__wrapp {
+        display       : flex;
+        flex-direction: column;
+
+        @media (max-width:1024px) {
+            display: none;
+        }
+    }
+
+    &__tel {
+        font-family   : "inter";
+        font-weight   : 700;
+        font-size     : 1rem;
+        letter-spacing: 2px;
+        transition    : color 0.3s ease-out;
+
+        &:hover {
+            color: #999999;
+        }
+
+
+    }
+}

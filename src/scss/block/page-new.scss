@@ -1,0 +1,35 @@
+.page-new {
+
+    &__body {}
+
+    &__contant {}
+
+    &__title {}
+
+    &__wrapp {
+        display        : flex;
+        gap            : 25px;
+        justify-content: space-between;
+        margin         : 0 0 60px 0;
+    }
+
+    &__img {
+        flex  : 1 1 40%;
+        height: auto;
+    }
+
+    &__info {}
+
+    &__date {
+        font-family: "Inter";
+        font-size  : 0.8125rem;
+        color      : #C2A696;
+    }
+
+    &__text {
+
+        &_bold {
+            font-weight: 600;
+        }
+    }
+}
