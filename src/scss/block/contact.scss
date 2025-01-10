@@ -32,7 +32,11 @@
         font-size  : 1.375rem;
     }
 
-    &__address {}
+    &__address {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
 
     &__span {
         font-weight: 600;

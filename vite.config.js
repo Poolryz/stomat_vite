@@ -1,12 +1,12 @@
-import {resolve} from 'path';
+import { resolve } from 'path';
 import handlebars from 'vite-plugin-handlebars';
 const pages = {
-  index: resolve (__dirname, 'index.html'),
-  about: resolve (__dirname, 'about.html'),
-  services: resolve (__dirname, 'services.html'),
-  news: resolve (__dirname, 'news.html'),
-  new: resolve (__dirname, 'new.html'),
-  contacts: resolve (__dirname, 'contacts.html'),
+  index: resolve(__dirname, 'index.html'),
+  about: resolve(__dirname, 'about.html'),
+  services: resolve(__dirname, 'services.html'),
+  news: resolve(__dirname, 'news.html'),
+  new: resolve(__dirname, 'new.html'),
+  contacts: resolve(__dirname, 'contacts.html'),
 };
 
 export default {
@@ -34,8 +34,8 @@ export default {
     },
   },
   plugins: [
-    handlebars ({
-      partialDirectory: resolve (__dirname, 'partials'),
+    handlebars({
+      partialDirectory: resolve(__dirname, 'partials'),
       reloadOnPartialChange: true,
     }),
   ],
